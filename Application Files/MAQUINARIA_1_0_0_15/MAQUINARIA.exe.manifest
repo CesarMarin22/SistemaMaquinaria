@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="MAQUINARIA.exe" version="1.0.0.15" publicKeyToken="462d58ae8b05373e" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="tool11_122838.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="MAQUINARIA" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="MAQUINARIA.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de Control de cuentas de usuario
+          Si quiere cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el
+          nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar la virtualización de archivos y del Registro para la
+         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="itextsharp.dll" size="4079616">
+      <assemblyIdentity name="itextsharp" version="5.5.13.1" publicKeyToken="8354AE6D2174DDCA" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>VUC+CCHYMD3JRf0r0cYggs26RiYOUniYX6CGYkLerdI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MAQUINARIA.exe" size="155104">
+      <assemblyIdentity name="MAQUINARIA" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>++PvKCvFjWHMgwesOo0C8exyR8/wSM/9B7CzsdFNs+I=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="MAQUINARIA.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="tool11_122838.ico" size="43886">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>23b9gDqe9VcBZNRPJ5hEdLzhmU27UjqOUqijDZKB9Tg=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-MF6QVP1\Marín" issuerKeyHash="d11cc15b32e6559190f9bcffd25346cc5b39abe9" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>BJq1guhC9GIGptAdBg8MaecIxlUtQW9nGqjqkzUWup8=</DigestValue></Reference></SignedInfo><SignatureValue>XiWNS62f3kCpk8k3G4HovTCRp5Ln7NUcdrFBn4xRtLsqN9EE7zm6G5qLW0nslmCVrvDKhwzZ+7BAF3VA5OxK/TUJHzOrqRNpM627AnVO2wVKEqU2MPXxy2np5UYl3bPk0BR3jerNRqM7nzUEwr3QXDJkld9UiJKFrhB5hJJFSh0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>lvk6Dk6+78jBZmPRT21DpCaxhmxVx1TFJY1iYpr8ive4lxe4+duXB6Y5SAr9LadkLBj8baF0ePOMjwxZDU75vKt6ye662fDk2DeBR1umnr3ljgBsbA+veLazZFMbV6pvNipgzAPc9lwrZSR4MalUjR3/zSniQfMUGuPUbl1F6mE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="9fba163593eaa81a676f412d55c608e7690c0f061dd0a60662f442e882b59a04" Description="" Url=""><as:assemblyIdentity name="MAQUINARIA.exe" version="1.0.0.15" publicKeyToken="462d58ae8b05373e" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-MF6QVP1\Marín</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>o7BT7413AWJ5Xe3pGnO5b9SGL6M5qrtyvniEmABKnio=</DigestValue></Reference></SignedInfo><SignatureValue>YFaZXbw4xZ1s4q6Fjss6hsJE9gSsqFPvM35vkTTA2m48+cbXhuSowHttR7RhjZioQUks2qdE/zix4kMmHQrS0zNKM/Fi2T09+jwmqDzI0p0ER1zN1WTFiZiaefYK2if3s0aWq20q+iUgSXF2o9u5wIHK0YUA5BcecrKMe5qvbOM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>lvk6Dk6+78jBZmPRT21DpCaxhmxVx1TFJY1iYpr8ive4lxe4+duXB6Y5SAr9LadkLBj8baF0ePOMjwxZDU75vKt6ye662fDk2DeBR1umnr3ljgBsbA+veLazZFMbV6pvNipgzAPc9lwrZSR4MalUjR3/zSniQfMUGuPUbl1F6mE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQLy5vfHQ3kLdFExIZPexfojANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAE0ARgA2AFEAVgBQADEAXABNAGEAcgDtAG4wHhcNMjAwODIwMTgxMDEzWhcNMjEwODIxMDAxMDEzWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAE0ARgA2AFEAVgBQADEAXABNAGEAcgDtAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJb5Og5Ovu/IwWZj0U9tQ6QmsYZsVcdUxSWNYmKa/Ir3uJcXuPnblwemOUgK/S2nZCwY/G2hdHjzjI8MWQ1O+byresnuutnw5Ng3gUdbpp695Y4AbGwPr3i2s2RTG1eqbzYqYMwD3PZcK2UkeDGpVI0d/80p4kHzFBrj1G5dRephAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAQ2WIicJqgllzRCMECge+/IksRo/Zw48slW9v8vB8Z7Xg3krkhE8hSf/y4D3DE5pbmm/Pcezbt2SMdTBI5IxYO3jJzEE5Kzx1itYBjsxMAWE+36aIweP9vggq/MPsF3khoRXOPcRlx9FBiiReYr0L85Y8++xTnLv6pMIH/gLpIl0=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
